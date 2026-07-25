@@ -1,0 +1,16 @@
+[contract]
+symbol = "SHFE.rb"
+multiplier = 10
+tick_size = 1.0
+commission_rate = 0.0001
+slippage_ticks = 1.0
+
+[strategy]
+entry_window = 20
+exit_window = 10
+atr_window = 20
+fast_ma = 5
+slow_ma = 20
+risk_per_trade = 0.01
+max_units = 4
+initial_cash = 1000000.0
