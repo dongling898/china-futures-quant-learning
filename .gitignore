@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 凭证与交易状态
+.env
+*_config.json
+*_state.json
+vnpy*/
+
+# 数据与回测输出
+data/*.csv
+!data/example_rb.csv
+data/*.parquet
+data/*.metadata.json
+data/raw/
+results/
