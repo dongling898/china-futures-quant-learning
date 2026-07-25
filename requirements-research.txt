@@ -1,0 +1,3 @@
+# Research data and analysis. Install trading gateways separately.
+akshare
+pandas
